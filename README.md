@@ -17,6 +17,10 @@ Built one-shot with the Next.js App Router, fully typed, zero runtime dependenci
 [![Playwright](https://img.shields.io/badge/Playwright-tested-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-A1683A?style=for-the-badge)](#-license)
 
+<br />
+
+<img src="docs/screenshots/hero-desktop.png" alt="Ember & Oak landing page hero" width="100%" />
+
 </div>
 
 ---
@@ -31,6 +35,43 @@ is server-rendered, every interaction is keyboard-accessible, and the whole page
 
 > No SaaS dashboards, no third-party booking widgets — the booking flow, availability engine,
 > mailer, and admin console are all part of this codebase.
+
+---
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/screenshots/booking-step-1.png" alt="Booking dialog — party size & date" width="100%" /><br />
+      <sub><b>Booking — step 1 · party &amp; date</b></sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="docs/screenshots/booking-step-2.png" alt="Booking dialog — live time slots" width="100%" /><br />
+      <sub><b>Booking — step 2 · live availability</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/reservations.png" alt="Reservations section with form" width="100%" /><br />
+      <sub><b>Reservations section · server-validated form</b></sub>
+    </td>
+    <td align="center" valign="top">
+      <table>
+        <tr>
+          <td width="50%" align="center">
+            <img src="docs/screenshots/hero-mobile.png" alt="Mobile landing page" width="100%" /><br />
+            <sub><b>Mobile · hero</b></sub>
+          </td>
+          <td width="50%" align="center">
+            <img src="docs/screenshots/mobile-nav.png" alt="Mobile navigation menu" width="100%" /><br />
+            <sub><b>Mobile · nav</b></sub>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -115,6 +156,7 @@ ember-and-oak/
 │   └── db.json
 ├── scripts/                      # Playwright verification + checks
 │   ├── verify.mjs · dialog-shot.mjs · validate-ld.mjs
+├── docs/screenshots/             # README imagery
 ├── public/                       # Static assets
 ├── .env.example                  # Environment template
 ├── eslint.config.mjs             # ESLint flat config
