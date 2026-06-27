@@ -40,6 +40,42 @@ is server-rendered, every interaction is keyboard-accessible, and the whole page
 
 ## 📸 Screenshots
 
+### 🏠 The home page — section by section
+
+<p align="center">
+  <img src="docs/screenshots/section-pillars.png" alt="Pillars — three things we refuse to compromise" width="90%" />
+  <br /><sub><b>Pillars</b> · the kitchen's three promises</sub>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/section-menu.png" alt="Menu section — tonight's menu" width="90%" />
+  <br /><sub><b>Menu</b> · this week's courses with a featured “plate of the week”</sub>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/section-story.png" alt="Story section — a bistro built around one fire" width="90%" />
+  <br /><sub><b>Story</b> · founder, ethos, and at-a-glance stats</sub>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/section-press.png" alt="Press section — pull quotes" width="90%" />
+  <br /><sub><b>Press</b> · editorial pull-quotes</sub>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/section-reserve.png" alt="Reserve section — hold a seat by the fire" width="90%" />
+  <br /><sub><b>Reserve</b> · hours, address, and the booking CTA</sub>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/section-footer.png" alt="Footer" width="90%" />
+  <br /><sub><b>Footer</b> · visit, contact, and social</sub>
+</p>
+
+<p align="center"><sub>📜 <a href="docs/screenshots/home-full.png">See the entire page in a single scroll →</a></sub></p>
+
+### 🗓️ Booking flow & reservations
+
 <table>
   <tr>
     <td width="50%" align="center">
@@ -52,23 +88,24 @@ is server-rendered, every interaction is keyboard-accessible, and the whole page
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td colspan="2" align="center">
       <img src="docs/screenshots/reservations.png" alt="Reservations section with form" width="100%" /><br />
-      <sub><b>Reservations section · server-validated form</b></sub>
+      <sub><b>Reservations section · server-validated form with confirmation state</b></sub>
     </td>
-    <td align="center" valign="top">
-      <table>
-        <tr>
-          <td width="50%" align="center">
-            <img src="docs/screenshots/hero-mobile.png" alt="Mobile landing page" width="100%" /><br />
-            <sub><b>Mobile · hero</b></sub>
-          </td>
-          <td width="50%" align="center">
-            <img src="docs/screenshots/mobile-nav.png" alt="Mobile navigation menu" width="100%" /><br />
-            <sub><b>Mobile · nav</b></sub>
-          </td>
-        </tr>
-      </table>
+  </tr>
+</table>
+
+### 📱 Mobile
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/screenshots/hero-mobile.png" alt="Mobile landing page" width="100%" /><br />
+      <sub><b>Mobile · hero</b></sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="docs/screenshots/mobile-nav.png" alt="Mobile navigation menu" width="100%" /><br />
+      <sub><b>Mobile · full-screen nav</b></sub>
     </td>
   </tr>
 </table>
@@ -155,7 +192,7 @@ ember-and-oak/
 ├── data/                         # Runtime store (git-ignored, auto-created)
 │   └── db.json
 ├── scripts/                      # Playwright verification + checks
-│   ├── verify.mjs · dialog-shot.mjs · validate-ld.mjs
+│   ├── verify.mjs · dialog-shot.mjs · portfolio-shot.mjs · validate-ld.mjs
 ├── docs/screenshots/             # README imagery
 ├── public/                       # Static assets
 ├── .env.example                  # Environment template
