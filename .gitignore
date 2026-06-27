@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+
+# Next.js build output
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# Local runtime data store (reservations, newsletter, mailbox)
+data/
+
+# Environment variables — never commit real secrets.
+# .env.example IS committed as the template.
+.env
+.env.*
+!.env.example
+
+# Tooling caches
+.eslintcache
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
